@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .wrapper {
+    width: 100%;
+    margin: 0;
+    position: relative;
+  }
+  
+  img.featured-image {
+    margin: 10px;
+    padding: 0px 150px 0px;
+    width: 200px;
+  }
+  
+  .menu {
+    float: right;
+    padding: 0px 80px 0px;
+  }
+  
+  nav {
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    line-height: 2px;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 100;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 27px 0px 27px 0px;
+    overflow: hidden;
+    font-family: Slabo 27px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    color: #568be2;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: blue;
+  }
+  .headcontent {
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  body {
+    overflow-x: hidden;
+    padding: 0px;
+    font-family: Montserrat;
+    background: #eaeaea;
+    background-image: url("968608.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-size: 100%;
+  }
+  
+  .kolom {
+    font-family: "Slabo 27px";
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 1100px;
+    height: 400px;
+    position: absolute;
+    top: 150px;
+    left: 115px;
+    background: white;
+  }
+  
+  .post-card {
+    background-color: white;
+    border: 1px  #CFCFCF solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+  
+    padding: 2rem;
+    z-index: 2;
+  }
+  
+  .post-card h2 {
+    color: #568be2;
+  }
+  
+  .post-card p {
+    margin-top: 0.5rem;
+  }
+  
+  #posts {
+    margin-top: 2rem;
+  }
+  
+  #horizontal-background {
+    position: absolute;
+    width: 100vw;
+    height: 1rem;
+    background-color: white;
+    top: 37rem;
+    z-index: 0;
+  }
+  
+  /* style pada bagian footer */
+  footer {
+    margin-top: 105px;
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    padding: 15px;
+  }
+  
+  @media screen and (min-width: 769px) {
+    #posts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .post-card {
+      max-width: 52rem;
+    }
+  
+    .wrapper {
+      padding-right: 1rem;
+    }
+  }
+  
